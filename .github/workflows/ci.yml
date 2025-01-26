@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.8, 3.9] # The job runs on Python versions 3.8 and 3.9.
+        python-version: [3.8, 3.9  ,3.12.1] # The job runs on Python versions 3.8 and 3.9.
 
     steps:
       # Step 1: Check out the repository code into the runner.
